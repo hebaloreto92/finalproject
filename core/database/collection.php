@@ -19,7 +19,15 @@ abstract class collection
         return self::getResults($sql);
     }
 
-    //you can use this to run other queries in on the classes that extend the collection class because this is protected
+    static public function findAllById($userId)
+    {
+        $tableName = get_called_class();
+        $sql = 'SELECT * FROM ' . $tableName.' where ownerid='.$userId;
+        echo $sql;
+        return self::getResults($sql);
+    }
+
+    //you can use this to run other queries in on classes that extend the collection class because this is protected
     protected static function getResults($sql, $parameters = null) {
 
 
