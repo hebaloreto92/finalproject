@@ -1,6 +1,6 @@
 <?php
 
-define('DATABASE', 'kwilliam');
-define('USERNAME', 'kwilliam');
-define('PASSWORD', 'USracpEto');
+define('DATABASE', 'hs563');
+define('USERNAME', 'hs563');
+define('PASSWORD', 'Se1MxHdZr');
 define('CONNECTION', 'sql2.njit.edu');
