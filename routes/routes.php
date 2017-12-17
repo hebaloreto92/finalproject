@@ -11,7 +11,7 @@ class routes
 
     public static function getRoutes()
     {
-        //below adds routes to your program, routes match the URL and request method with the controller and method.
+        //bellow adds routes to your program, routes match the URL and request method with the controller and method.
         //You need to follow this pattern to add new URLS
         //You should improve this function by making functions to create routes in a factory. I will look for this when grading
 
@@ -93,10 +93,18 @@ class routes
 
         $route = new route();
         $route->http_method = 'POST';
-        $route->action = 'addtask';
+        $route->action = 'updatetask';
         $route->page = 'tasks';
         $route->controller = 'tasksController';
         $route->method = 'update';
+        $routes[] = $route;
+
+        $route = new route();
+        $route->http_method = 'POST';
+        $route->action = 'addtask';
+        $route->page = 'tasks';
+        $route->controller = 'tasksController';
+        $route->method = 'addTask';
         $routes[] = $route;
 
         //This goes in the login form action method
