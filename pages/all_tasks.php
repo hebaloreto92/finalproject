@@ -18,7 +18,7 @@
 <body>
 
 <?php
-//this is how you print something
+//this is how you print on something
 
 print utility\htmlTable::genarateTableFromMultiArray($data);
 
