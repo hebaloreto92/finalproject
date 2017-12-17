@@ -70,7 +70,7 @@ class Manage
 //this is useful to see what class and namespace is being asked for
 //echo $class . '<br>';
         $path = 'routes/' . str_replace('\\', '/', $class) . '.php';
-//this is useful to see what path is being asked for
+//this is useful to see what path is being asked in for
 
 //echo $path . '<br>';
         if (is_file($path)) {

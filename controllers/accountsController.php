@@ -33,7 +33,7 @@ class accountsController extends http\controller
 
     //you should check the notes on the project posted in moodle for how to use active record here
 
-    //this is to register an account i.e. insert a new account
+    //this is to register an account i.e. insert a very new account
     public static function register()
     {
         //https://www.sitepoint.com/why-you-should-use-bcrypt-to-hash-stored-passwords/
