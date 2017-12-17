@@ -11,7 +11,7 @@ class routes
 
     public static function getRoutes()
     {
-        //bellow adds routes to your program, routes match the URL and request method with the controller and method.
+        //below adds routes to your program, routes match the URL and request method with the controller and method.
         //You need to follow this pattern to add new URLS
         //You should improve this function by making functions to create routes in a factory. I will look for this when grading
 
