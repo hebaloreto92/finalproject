@@ -29,7 +29,7 @@ final class account extends \database\model
         print_r($records);
         return $records;
     }
-    //add a method to compare the passwords this is where bcrypt should be done and it should return TRUE / FALSE for login
+    //add a method to compare the passwords, this is where bcrypt should be done and it should return TRUE / FALSE for login
 
 
 
