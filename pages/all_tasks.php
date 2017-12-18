@@ -23,7 +23,7 @@
 
 $arr = (array)$data;
 if (empty($arr)) {
-    echo "There is no task on this ID, you need to register this ID by clicking on ADD NEW TASK";
+    echo "0 record fetched for your ID, you need to register first by clicking on ADD NEW TASK";
 }
 else
 {
