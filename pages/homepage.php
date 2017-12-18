@@ -24,9 +24,9 @@
 </head>
 
  
-<body style="background-color: rgba(201, 76, 76, 0.3);">
+<body background="w3s.jpg">
         <center><img src="myimage.jpg" width="300" height="200"><br><br>
-        <body background="w3s.jpg">
+        
 
 
 <h1>
