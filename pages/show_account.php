@@ -15,7 +15,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body background="w3s.jpg">
 <!--
 <h1>Email: <?php echo $data->email; ?></h1>
 <h1>First Name: <?php echo $data->fname; ?></h1>

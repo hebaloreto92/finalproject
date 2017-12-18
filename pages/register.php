@@ -15,8 +15,7 @@
     <![endif]-->
 </head>
 
-<body>
-
+<body background="w3s.jpg">
 
 <form name="accountDetail" action="index.php?page=accounts&action=register" onsubmit="return validateForm()" method="post">
     First name: <input type="text" name="fname" required><br>

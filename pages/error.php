@@ -15,7 +15,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body background="w3s.jpg">
 
 <h1><?php echo $data ?></h1>
 

@@ -25,7 +25,8 @@
 
  
 <body style="background-color: rgba(201, 76, 76, 0.3);">
-        <center><img src="myimage.jpg" width="700" height="200"><br><br>
+        <center><img src="myimage.jpg" width="300" height="200"><br><br>
+        <body background="w3s.jpg">
 
 
 <h1>

@@ -15,7 +15,7 @@
     <![endif]-->
 </head>
 
-<body>
+<body background="w3s.jpg">
 
 
 <form name="updateTask" action="index.php?page=tasks&action=addtask" onsubmit="return validateForm()" method="POST">

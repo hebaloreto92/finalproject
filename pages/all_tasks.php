@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-<body style="background-color: rgba(201, 76, 76, 0.3);">
+<body background="w3s.jpg">
     <meta charset="utf-8">
 
     <title>The HTML5 Herald</title>
