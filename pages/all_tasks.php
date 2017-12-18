@@ -2,6 +2,7 @@
 
 <html lang="en">
 <head>
+<body style="background-color: rgba(201, 76, 76, 0.3);">
     <meta charset="utf-8">
 
     <title>The HTML5 Herald</title>
@@ -22,7 +23,7 @@
 
 $arr = (array)$data;
 if (empty($arr)) {
-    echo "You have no task on your ID, Please create by clicking ADD TASK";
+    echo "There is no task on this ID, you need to register this ID by clicking on ADD NEW TASK";
 }
 else
 {
@@ -31,8 +32,8 @@ print utility\htmlTable::genarateTableFromMultiArray($data);
 
 ?>
 
-<h1><a href="index.php?page=accounts&action=show">View my profile </a></h1>
-<h1><a href="index.php?page=tasks&action=create">Add Task </a></h1>
+<center><h1><a href="index.php?page=accounts&action=show">VIEW MY PROFILE </a></h1></center>
+<center><h1><a href="index.php?page=tasks&action=create">ADD NEW TASK </a></h1></center>
 
 <script src="js/scripts.js"></script>
 </body>
